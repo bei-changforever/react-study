@@ -1,0 +1,12 @@
+.tab {
+    display: flex;
+}
+
+.tab .active {
+    color: red;
+}
+
+.title-container {
+    display: flex;
+    color: blue;
+}
