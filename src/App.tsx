@@ -13,6 +13,9 @@ const getArticleTem = () => {
   }
 };
 
+const Button = () => {
+  return <button>按钮</button>;
+}
 function App() {
   const [flag, setFlag] = useState(false);
   const handleClick = (name, e) => {
@@ -49,6 +52,8 @@ function App() {
       {getArticleTem()}
       <h3>事件绑定</h3>
       <button onClick={(e) => handleClick("jack", e)}>事件绑定</button>
+      <h3>组件的使用</h3>
+      <Button></Button>
     </>
   );
 }
